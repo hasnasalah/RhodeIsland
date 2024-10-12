@@ -51,6 +51,10 @@ Matplotlib/Seaborn: For data visualization.
 Jupyter Notebook: For executing the analysis and visualizing results.
 
 How to Run the Project:
+
+- Ensure you have [Python](https://www.python.org/downloads/) installed (preferably Python 3.7 or later).
+- It's recommended to use a virtual environment to avoid package conflicts.
+
 1. create emty folder and open the gitbash command line
 2.clone the repository to local machine using this command:
 git clone https://github.com/hasnasalah/RhodeIsland.git
@@ -63,6 +67,9 @@ git clone https://github.com/hasnasalah/RhodeIsland.git
     source env/bin/activate
 4. upload the requirements:
   pip install -r requirements.txt
+  import matplotlib
+print(matplotlib.__version__)
+
 5. run the project:
 jupyter notebook analysis.ipynb
 
