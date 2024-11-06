@@ -10,6 +10,5 @@ pytz==2023.3
 six==1.16.0
 tomli==2.0.1
 tzdata==2023.3
-matplotlib
-
+matplotlib==3.9.2
 

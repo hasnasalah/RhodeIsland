@@ -71,7 +71,7 @@ git clone https://github.com/hasnasalah/RhodeIsland.git
 print(matplotlib.__version__)
 
 5. run the project:
-jupyter notebook analysis.ipynb
+jupyter notebook RhodeIsland.ipynb
 
 
 
